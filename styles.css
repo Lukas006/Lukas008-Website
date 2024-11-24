@@ -1,0 +1,187 @@
+/* General Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* Centered content */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ffffff; /* White headline */
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #A7A0E0; /* Light violet */
+    margin: 10px 0 0;
+}
+
+/* Sections */
+main section {
+    margin: 40px 0;
+}
+
+main h2 {
+    font-size: 2em;
+    color: #AB00E1; /* Bright violet */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* YouTube Video */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Social Buttons */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between buttons */
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2em; /* Adjusted size for readability */
+    color: #FFFFFF; /* White text */
+    background-color: #1983E3; /* Light blue */
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.button:hover {
+    background-color: #AB00E1; /* Violet on hover */
+    transform: translateY(-2px); /* Subtle hover effect */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #333333;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #A7A0E0; /* Light violet for footer text */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p, .button {
+        font-size: 1em;
+    }
+}
+
+/* YouTube Button */
+button.youtube {
+    background-color: #FF0000; /* Rot für YouTube */
+    color: #fff; /* Weiße Schrift */
+}
+
+button.youtube i {
+    color: #fff; /* Weiße Icons */
+}
+
+/* Twitter Button (mit neuem X-Logo) */
+button.twitter {
+    background-color: #000000; /* Schwarzer Hintergrund für X */
+    color: #fff; /* Weiße Schrift */
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border-radius: 10px; /* Runde Ecken */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+button.twitter i {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/64/X_Logo_2023.svg'); /* X-Logo */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px; /* Breite des Logos */
+    height: 24px; /* Höhe des Logos */
+    margin-right: 10px; /* Abstand zwischen Icon und Text */
+}
+
+button.twitter span {
+    font-size: 1.2em;
+    margin-left: 10px; /* Abstand zwischen Text und Icon */
+}
+
+/* Hover-Effekt */
+button.twitter:hover {
+    background-color: #3f3f3f; /* Dunkleres Grau bei Hover */
+    transform: translateY(-2px); /* Subtiler Hover-Effekt */
+}
+
+
+/* Discord Button */
+button.discord {
+    background-color: #7289da; /* Discord-Blau */
+    color: #fff; /* Weiße Schrift */
+}
+
+button.discord i {
+    color: #fff; /* Weiße Icons */
+}
+
+/* Common Button Styles */
+.buttons .button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px; /* Optional for spacing */
+}
+
+/* Hover Effects */
+button:hover {
+    transform: translateY(-2px); /* Subtle hover effect */
+}
