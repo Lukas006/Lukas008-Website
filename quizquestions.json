@@ -1,0 +1,22 @@
+{
+    "quizzes": {
+        "1": {
+            "questions": [
+                {
+                    "question": "Welche der folgenden Sprachen sind Programmiersprachen?",
+                    "options": ["Python", "HTML", "JavaScript", "CSS", "Java"],
+                    "answer": ["Python", "JavaScript", "Java"]
+                }
+            ]
+        },
+        "2": {
+            "questions": [
+                {
+                    "question": "Welche Zahlen sind Primzahlen?",
+                    "options": ["2", "4", "5", "9", "7"],
+                    "answer": ["2", "5", "7"]
+                }
+            ]
+        }
+    }
+}

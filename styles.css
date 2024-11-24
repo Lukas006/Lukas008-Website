@@ -250,3 +250,56 @@ h1 {
     border: 2px solid #4CAF50; /* Green border for Snake Game */
 }
 
+/* Allgemeine Stile */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #1983E3; /* Blau für den Header */
+}
+
+#quiz-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#options-container {
+    margin-bottom: 20px;
+}
+
+#quiz-screen, #game-over-screen, #start-screen {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkbox Stil */
+#options-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.correct-answer {
+    background-color: green;
+    color: white;
+}
+
+.wrong-answer {
+    background-color: red;
+    color: white;
+}

@@ -40,9 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Funktion, die das Video anzeigt, wenn der Button geklickt wird
         jakeButton.addEventListener('click', function() {
+            console.log("Subway Surfers loded2!")
             if (!buttonClicked) {
                 buttonClicked = true; // Setze buttonClicked auf true
                 videoContainer.style.display = 'block'; // Video anzeigen
+                console.log("Subway Surfers loded!")
             }
         });
 

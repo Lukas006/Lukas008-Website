@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Start</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-screen" class="container">
+        <header>
+            <h1>Willkommen zum Quiz!</h1>
+        </header>
+
+        <p>Wählen Sie ein Quiz:</p>
+        <select id="quiz-selection">
+            <option value="1">Quiz 1</option>
+            <option value="2">Quiz 2</option>
+        </select>
+
+        <button id="start-button">Quiz starten</button>
+    </div>
+
+    <div id="quiz-screen" class="container" style="display:none;">
+        <h2 id="question">Frage erscheint hier</h2>
+        <div id="options-container"></div>
+        <button id="confirm-button">Antwort bestätigen</button>
+        <button id="next-button" style="display:none;">Nächste Frage</button>
+        <p id="score">Punkte: 0</p>
+    </div>
+
+    <div id="game-over-screen" class="container" style="display:none;">
+        <p id="final-score">Endstand: 0</p>
+        <button id="restart-button">Neustarten</button>
+        <button id="home-button">Zurück zur Startseite</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
