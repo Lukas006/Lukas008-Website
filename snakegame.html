@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styling */
+        body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    background-color: #333;
+}
+
+.game-container, .game-over-screen {
+    display: none;
+    margin-top: 20px;
+}
+
+.start-screen, .game-over-screen {
+    display: block;
+}
+
+.button {
+    background-color: #1983E3;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #AB00E1;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.difficulty-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="start-screen">
+        <a href="gamepage.html" class="button">Back to Games Page</a>
+        <h1>Welcome to Snake Game!</h1>
+        <p>Select difficulty:</p>
+        <button class="button" id="easy">Easy</button>
+        <button class="button" id="medium">Medium</button>
+        <button class="button" id="hard">Hard</button>
+    </div>
+
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <p id="score">Score: 0</p>
+    </div>
+
+    <div class="game-over-screen">
+        <h1>Game Over!</h1>
+        <p id="finalScore">Final Score: 0</p>
+        <button class="button" id="restart">Restart</button>
+        <button class="button" id="home">Home</button>
+    </div>
+
+
+
+    <script src="snakegame.js"></script>
+</body>
+</html>

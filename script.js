@@ -45,3 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 videoContainer.style.display = 'block'; // Video anzeigen
             }
         });
+
+        document.getElementById('playGamesButton').addEventListener('click', function() {
+            // Hier kannst du entscheiden, was beim Klick auf den Play Games Button passiert
+            // Zum Beispiel, den Benutzer zur Spiel-Seite weiterleiten:
+            window.location.href = "gamepage.html";  // Ersetze "gamepage.html" mit dem tatsächlichen Dateinamen der Spiel-Seite
+            
+            // Alternativ kannst du auch das Spiel direkt im selben Fenster starten
+            // (z. B. das Snake-Spiel starten oder ein bestimmtes Div sichtbar machen)
+        });

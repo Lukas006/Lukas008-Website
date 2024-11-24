@@ -1,14 +1,14 @@
 /* General Settings */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #121212; /* Dark background */
-    color: #E0E0E0; /* Light text */
+    background-color: #121212;
+    color: #E0E0E0;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    max-width: 800px; /* Centered content */
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -21,14 +21,14 @@ header {
 
 header h1 {
     font-size: 3em;
-    color: #ffffff; /* White headline */
+    color: #ffffff;
     margin: 0;
 }
 
 header p {
     font-size: 1.2em;
-    color: #A7A0E0; /* Light violet */
-    margin: 10px 0 0;
+    color: #A7A0E0;
+    margin: 10px 0;
 }
 
 /* Sections */
@@ -38,7 +38,7 @@ main section {
 
 main h2 {
     font-size: 2em;
-    color: #AB00E1; /* Bright violet */
+    color: #AB00E1;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -46,7 +46,7 @@ main h2 {
 /* YouTube Video */
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
@@ -64,7 +64,7 @@ main h2 {
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Spacing between buttons */
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -72,22 +72,17 @@ main h2 {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 1.2em; /* Adjusted size for readability */
-    color: #FFFFFF; /* White text */
-    background-color: #1983E3; /* Light blue */
+    font-size: 1.2em;
+    color: #FFFFFF;
+    background-color: #1983E3;
     padding: 15px 20px;
-    text-align: center;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.button i {
-    margin-right: 10px; /* Space between icon and text */
-}
-
 .button:hover {
-    background-color: #AB00E1; /* Violet on hover */
-    transform: translateY(-2px); /* Subtle hover effect */
+    background-color: #AB00E1;
+    transform: translateY(-2px);
 }
 
 /* Footer */
@@ -100,7 +95,7 @@ footer {
 
 footer p {
     font-size: 0.9em;
-    color: #A7A0E0; /* Light violet for footer text */
+    color: #A7A0E0;
 }
 
 /* Responsive Design */
@@ -114,123 +109,100 @@ footer p {
     }
 }
 
-/* YouTube Button */
+/* Social Button Styles */
 button.youtube {
-    background-color: #FF0000; /* Rot für YouTube */
-    color: #fff; /* Weiße Schrift */
+    background-color: #FF0000;
 }
 
-button.youtube i {
-    color: #fff; /* Weiße Icons */
-}
-
-/* Twitter Button (mit neuem X-Logo) */
 button.twitter {
-    background-color: #000000; /* Schwarzer Hintergrund für X */
-    color: #fff; /* Weiße Schrift */
+    background-color: #000000;
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    font-size: 1.2em;
-    border-radius: 10px; /* Runde Ecken */
+    border-radius: 10px;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    text-decoration: none;
 }
 
 button.twitter i {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/64/X_Logo_2023.svg'); /* X-Logo */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/64/X_Logo_2023.svg');
     background-size: contain;
-    background-repeat: no-repeat;
-    width: 24px; /* Breite des Logos */
-    height: 24px; /* Höhe des Logos */
-    margin-right: 10px; /* Abstand zwischen Icon und Text */
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
 
-button.twitter span {
-    font-size: 1.2em;
-    margin-left: 10px; /* Abstand zwischen Text und Icon */
-}
-
-/* Hover-Effekt */
 button.twitter:hover {
-    background-color: #3f3f3f; /* Dunkleres Grau bei Hover */
-    transform: translateY(-2px); /* Subtiler Hover-Effekt */
+    background-color: #3f3f3f;
+    transform: translateY(-2px);
 }
 
-
-/* Discord Button */
-button.discord {
-    background-color: #7289da; /* Discord-Blau */
-    color: #fff; /* Weiße Schrift */
-}
-
-button.discord i {
-    color: #fff; /* Weiße Icons */
-}
-
-/* Common Button Styles */
-.buttons .button {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-size: 1.2em;
-    padding: 15px 20px;
-    text-align: center;
-    border-radius: 10px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    margin-bottom: 10px; /* Optional for spacing */
-}
-
-/* Hover Effects */
-button:hover {
-    transform: translateY(-2px); /* Subtle hover effect */
-}
-
+/* Jake Button */
 .jake-button {
     width: 50px;
     height: 50px;
-    background-image: url('./imgs/jake.png'); /* Bild aus dem Ordner imgs */
+    background-image: url('./imgs/jake.png');
     background-size: cover;
-    background-position: center;
     border-radius: 50%;
-    cursor: pointer;
-    border: none;
     transition: transform 0.2s ease;
-    display: none; /* Standardmäßig unsichtbar */
+    display: none;
+}
+
+.play-games-button {
+    display: none;
 }
 
 .jake-button:hover {
-    transform: scale(1.1); /* Vergrößert den Button beim Hover */
+    transform: scale(1.1);
 }
 
-/* Styling des eingebetteten Videos */
+.play-games-button {
+    background-color: #9b59b6;  /* Lilac color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+
+.play-games-button:hover {
+    background-color: #8e44ad;
+}
+
+/* Display Jake Button */
+@media (min-width: 750px) {
+    .jake-button {
+        display: block;
+    }
+
+    .play-games-button {
+        display: block;
+    }
+}
+
+/* Video container */
 #video-container-two {
     position: fixed;
-    top: 50%; /* Zentriert vertikal */
-    right: 160px; /* Abstand zum rechten Rand */
-    width: 540px; /* Breite auf 540px gesetzt */
-    height: 960px; /* Höhe auf 960px gesetzt */
-    display: none; /* Video standardmäßig versteckt */
-    transform: translateY(-50%); /* Verschiebt das Video vertikal, damit es genau in der Mitte ist */
+    top: 50%;
+    right: 160px;
+    width: 540px;
+    height: 960px;
+    display: none;
+    transform: translateY(-50%);
     overflow: hidden;
-    border-radius: 10px; /* Optional, für abgerundete Ecken */
+    border-radius: 10px;
 }
 
 #video-container-two iframe {
     width: 100%;
     height: 100%;
-    border: none;
-    object-fit: cover; /* Skaliert das Video, ohne es zu verzerren */
+    object-fit: cover;
 }
 
-.epic-logo {
-    width: 20px; /* Set the width of the Epic Games logo */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space between the logo and text */
-}
-
-
-/* Footer styles for small icons */
+/* Footer Icons */
 .footer-buttons {
     display: flex;
     justify-content: center;
@@ -239,40 +211,42 @@ button:hover {
 }
 
 .footer-button {
-    display: inline-block;
-    font-size: 1.5em; /* Small icon size */
-    color: #FFFFFF; /* White color for icons */
-    text-decoration: none;
+    font-size: 1.5em;
+    color: #FFFFFF;
     padding: 5px;
     transition: transform 0.2s ease;
 }
 
 .footer-button:hover {
-    transform: scale(1.2); /* Slightly enlarge icons on hover */
+    transform: scale(1.2);
 }
 
-/* Style changes for button with Twitter logo */
-.socials .buttons a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-size: 1.2em; /* Adjusted size for readability */
-    color: #FFFFFF; /* White text */
-    background-color: #1983E3; /* Light blue */
-    padding: 15px 20px;
+/* Styles for the game page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
     text-align: center;
-    border-radius: 10px; /* Rounded corners */
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 2em;
 }
 
-.socials .buttons a:hover {
-    background-color: #AB00E1; /* Violet on hover */
-    transform: translateY(-2px); /* Subtle hover effect */
+.buttons {
+    text-align: center;
+    margin-top: 50px;
 }
 
-/* Medienabfrage: Zeige den Subway Surfers Button nur, wenn genügend Platz vorhanden ist */
-@media (min-width: 750px) {
-    .jake-button {
-        display: block; /* Button sichtbar, wenn der Bildschirm breiter als 750px ist */
-    }
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
 }
+
+/* Snake game canvas styling */
+#snakeCanvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #000000; /* Black background */
+    border: 2px solid #4CAF50; /* Green border for Snake Game */
+}
+
