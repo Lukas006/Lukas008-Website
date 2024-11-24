@@ -29,3 +29,19 @@ document.addEventListener('DOMContentLoaded', () => {
         loadVideo(iframes[i]);
     }
 });
+
+
+        // Funktion zum Anzeigen und Abspielen des Videos
+        const jakeButton = document.getElementById('jake-button');
+        const videoContainer = document.getElementById('video-container-two');
+
+        // Variable, um zu prüfen, ob der Button gedrückt wurde
+        let buttonClicked = false;
+
+        // Funktion, die das Video anzeigt, wenn der Button geklickt wird
+        jakeButton.addEventListener('click', function() {
+            if (!buttonClicked) {
+                buttonClicked = true; // Setze buttonClicked auf true
+                videoContainer.style.display = 'block'; // Video anzeigen
+            }
+        });

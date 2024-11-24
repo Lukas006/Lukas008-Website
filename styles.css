@@ -185,3 +185,94 @@ button.discord i {
 button:hover {
     transform: translateY(-2px); /* Subtle hover effect */
 }
+
+.jake-button {
+    width: 50px;
+    height: 50px;
+    background-image: url('./imgs/jake.png'); /* Bild aus dem Ordner imgs */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s ease;
+    display: none; /* Standardmäßig unsichtbar */
+}
+
+.jake-button:hover {
+    transform: scale(1.1); /* Vergrößert den Button beim Hover */
+}
+
+/* Styling des eingebetteten Videos */
+#video-container-two {
+    position: fixed;
+    top: 50%; /* Zentriert vertikal */
+    right: 160px; /* Abstand zum rechten Rand */
+    width: 540px; /* Breite auf 540px gesetzt */
+    height: 960px; /* Höhe auf 960px gesetzt */
+    display: none; /* Video standardmäßig versteckt */
+    transform: translateY(-50%); /* Verschiebt das Video vertikal, damit es genau in der Mitte ist */
+    overflow: hidden;
+    border-radius: 10px; /* Optional, für abgerundete Ecken */
+}
+
+#video-container-two iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover; /* Skaliert das Video, ohne es zu verzerren */
+}
+
+.epic-logo {
+    width: 20px; /* Set the width of the Epic Games logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the logo and text */
+}
+
+
+/* Footer styles for small icons */
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.footer-button {
+    display: inline-block;
+    font-size: 1.5em; /* Small icon size */
+    color: #FFFFFF; /* White color for icons */
+    text-decoration: none;
+    padding: 5px;
+    transition: transform 0.2s ease;
+}
+
+.footer-button:hover {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+/* Style changes for button with Twitter logo */
+.socials .buttons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2em; /* Adjusted size for readability */
+    color: #FFFFFF; /* White text */
+    background-color: #1983E3; /* Light blue */
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.socials .buttons a:hover {
+    background-color: #AB00E1; /* Violet on hover */
+    transform: translateY(-2px); /* Subtle hover effect */
+}
+
+/* Medienabfrage: Zeige den Subway Surfers Button nur, wenn genügend Platz vorhanden ist */
+@media (min-width: 750px) {
+    .jake-button {
+        display: block; /* Button sichtbar, wenn der Bildschirm breiter als 750px ist */
+    }
+}
