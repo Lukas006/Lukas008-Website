@@ -3,36 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Start</title>
+    <title>Quiz Auswahl</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="start-screen" class="container">
-        <header>
-            <h1>Willkommen zum Quiz!</h1>
-        </header>
-
-        <p>Wählen Sie ein Quiz:</p>
+    <div id="start-screen">
+        <h1>Willkommen zum Quiz</h1>
+        <p>Wählen Sie ein Quiz aus:</p>
+        
+        <!-- Dropdown für Quiz-Auswahl -->
         <select id="quiz-selection">
-            <option value="1">Quiz 1</option>
-            <option value="2">Quiz 2</option>
+            <!-- Optionen werden dynamisch mit JavaScript geladen -->
         </select>
-
+        
         <button id="start-button">Quiz starten</button>
     </div>
 
-    <div id="quiz-screen" class="container" style="display:none;">
-        <h2 id="question">Frage erscheint hier</h2>
-        <div id="options-container"></div>
+    <div id="quiz-screen" style="display: none;">
+        <h1 id="quiz-title"></h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <div id="options-container"></div>
+        </div>
         <button id="confirm-button">Antwort bestätigen</button>
-        <button id="next-button" style="display:none;">Nächste Frage</button>
-        <p id="score">Punkte: 0</p>
+        <button id="next-button" style="display: block;">Nächste Frage</button>
     </div>
 
-    <div id="game-over-screen" class="container" style="display:none;">
-        <p id="final-score">Endstand: 0</p>
+    <div id="game-over-screen" style="display: none;">
+        <h1>Spiel beendet!</h1>
+        <p>Dein Punktestand: <span id="final-score">0</span></p>
         <button id="restart-button">Neustarten</button>
-        <button id="home-button">Zurück zur Startseite</button>
+        <button id="home-button">Zur Startseite</button>
     </div>
 
     <script src="quiz.js"></script>

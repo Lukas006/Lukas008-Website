@@ -1,22 +1,285 @@
 {
-    "quizzes": {
-        "1": {
-            "questions": [
-                {
-                    "question": "Welche der folgenden Sprachen sind Programmiersprachen?",
-                    "options": ["Python", "HTML", "JavaScript", "CSS", "Java"],
-                    "answer": ["Python", "JavaScript", "Java"]
-                }
-            ]
-        },
-        "2": {
-            "questions": [
-                {
-                    "question": "Welche Zahlen sind Primzahlen?",
-                    "options": ["2", "4", "5", "9", "7"],
-                    "answer": ["2", "5", "7"]
-                }
-            ]
-        }
-    }
-}
+    "quizzes": [
+      {
+        "id": "1",
+        "title": "Fortnite Quiz",
+        "questions": [
+          {
+            "question": "Welche der folgenden Waffen gab es in Fortnite?",
+            "options": ["Pumpgun", "AK-47", "Scar", "MG42", "P90"],
+            "answer": ["Pumpgun", "Scar", "P90"]
+          },
+          {
+            "question": "Was ist der Name der Insel, auf der Fortnite spielt?",
+            "options": ["Fortnite Island", "Battle Island", "The Island", "Tilted Towers", "Loot Lake"],
+            "answer": ["The Island"]
+          },
+          {
+            "question": "Was ist der seltenste Rang von Items in Fortnite?",
+            "options": ["Legendary", "Epic", "Rare", "Common", "Uncommon"],
+            "answer": ["Legendary"]
+          },
+          {
+            "question": "Welches Fahrzeug war in Fortnite Kapitel 2 Season 3 neu?",
+            "options": ["Schwimmmotorboot", "Auto", "Quadcrasher", "Lkw", "Schwimmflossen"],
+            "answer": ["Schwimmmotorboot"]
+          },
+          {
+            "question": "Welcher Battle Pass-Skin war in Season 4 von Fortnite verfügbar?",
+            "options": ["Iron Man", "Thor", "Black Panther", "Spider-Man", "Captain America"],
+            "answer": ["Thor", "Iron Man"]
+          },
+          {
+            "question": "Was ist der Hauptmodus von Fortnite?",
+            "options": ["Story", "Battle Royale", "Creative", "Save the World", "Zombie"],
+            "answer": ["Battle Royale"]
+          },
+          {
+            "question": "Welche der folgenden Items wurden in Fortnite entfernt?",
+            "options": ["Pump Shotgun", "Silenced Pistol", "Chug Jug", "Thermal Scoped AR", "All of the above"],
+            "answer": ["All of the above"]
+          },
+          {
+            "question": "Welcher Skin ist als 'The Reaper' bekannt?",
+            "options": ["John Wick", "Agent Jonesy", "Rust Lord", "The Visitor", "Midas"],
+            "answer": ["John Wick"]
+          },
+          {
+            "question": "Was ist der größte Vorteil der 'Zero Build' Spielweise in Fortnite?",
+            "options": ["Keine Waffen", "Keine Bauoptionen", "Schnellere Bewegung", "Verbesserte Ressourcen", "Weniger Schaden"],
+            "answer": ["Keine Bauoptionen"]
+          },
+          {
+            "question": "Welche Charaktere gehören zu den 'Seven' in Fortnite?",
+            "options": ["The Foundation", "The Scientist", "The Imagined", "Jonesy", "Raven"],
+            "answer": ["The Foundation", "The Scientist", "The Imagined"]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Minecraft Quiz",
+        "questions": [
+          {
+            "question": "Welche der folgenden Materialien sind in Minecraft die stärksten?",
+            "options": ["Diamant", "Eisen", "Netherite", "Gold", "Stein"],
+            "answer": ["Netherite", "Diamant"]
+          },
+          {
+            "question": "Welche der folgenden Kreaturen können in Minecraft gezähmt werden?",
+            "options": ["Schaf", "Wolf", "Ozelot", "Schneeeule", "Pferd"],
+            "answer": ["Wolf", "Ozelot", "Pferd"]
+          },
+          {
+            "question": "Was ist der höchste Wert, den ein Block in Minecraft haben kann?",
+            "options": ["255", "16", "64", "1024", "8192"],
+            "answer": ["255"]
+          },
+          {
+            "question": "Welche der folgenden Items gibt es in Minecraft?",
+            "options": ["Blaze Powder", "Enderpearl", "Dragon's Breath", "Lava Bucket", "TNT Block"],
+            "answer": ["Blaze Powder", "Enderpearl", "Dragon's Breath"]
+          },
+          {
+            "question": "Welche Kreatur spawnt in Nether-Festungen?",
+            "options": ["Blaze", "Ghast", "Enderman", "Wither Skeleton", "Zombie Pigman"],
+            "answer": ["Blaze", "Wither Skeleton"]
+          },
+          {
+            "question": "Was ist der Effekt von 'Levitation' in Minecraft?",
+            "options": ["Verlangsamt die Bewegung", "Lässt dich in die Luft steigen", "Verschwindet die Kreatur", "Beschleunigt die Bewegung", "Kreisende Bewegung"],
+            "answer": ["Lässt dich in die Luft steigen"]
+          },
+          {
+            "question": "Wie nennt man das Farmen von XP in Minecraft?",
+            "options": ["Grinden", "Mining", "XP-Sammlung", "Kommando", "Schlachten"],
+            "answer": ["Grinden"]
+          },
+          {
+            "question": "Welche der folgenden Strukturen sind in Minecraft vorhanden?",
+            "options": ["Dschungeltempel", "Pyramide", "Festung", "Dorf", "Zitadelle"],
+            "answer": ["Dschungeltempel", "Pyramide", "Festung", "Dorf"]
+          },
+          {
+            "question": "Was passiert, wenn du in den Nether gehst?",
+            "options": ["Kriegsgebiet", "Erhältst bessere Items", "Neue Monster erscheinen", "Verlässt die Dimension", "Verlorene Gesundheit"],
+            "answer": ["Neue Monster erscheinen"]
+          },
+          {
+            "question": "Welche der folgenden Biome gibt es in Minecraft?",
+            "options": ["Ozean", "Dschungel", "Wüste", "Eiswüste", "Regenwald"],
+            "answer": ["Ozean", "Dschungel", "Wüste", "Eiswüste"]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Allgemeinwissen Deutschland Quiz",
+        "questions": [
+          {
+            "question": "Was ist die Hauptstadt von Deutschland?",
+            "options": ["Berlin", "Hamburg", "München", "Köln", "Frankfurt"],
+            "answer": ["Berlin"]
+          },
+          {
+            "question": "Welche Farbe hat die Flagge von Deutschland?",
+            "options": ["Rot, Gelb, Schwarz", "Blau, Weiß, Rot", "Grün, Weiß, Schwarz", "Schwarz, Rot, Gold", "Rot, Weiß, Blau"],
+            "answer": ["Schwarz, Rot, Gold"]
+          },
+          {
+            "question": "Wann wurde die Mauer zwischen Ost- und Westdeutschland geöffnet?",
+            "options": ["1989", "1990", "1987", "1992", "1985"],
+            "answer": ["1989"]
+          },
+          {
+            "question": "Welcher berühmte deutsche Physiker entwickelte die Relativitätstheorie?",
+            "options": ["Max Planck", "Werner Heisenberg", "Albert Einstein", "Nikola Tesla", "Otto Hahn"],
+            "answer": ["Albert Einstein"]
+          },
+          {
+            "question": "Was ist der höchste Berg in Deutschland?",
+            "options": ["Zugspitze", "Brocken", "Fichtelgebirge", "Watzmann", "Kaisergebirge"],
+            "answer": ["Zugspitze"]
+          },
+          {
+            "question": "Welcher Fluss fließt durch Köln?",
+            "options": ["Donau", "Main", "Elbe", "Rhein", "Oder"],
+            "answer": ["Rhein"]
+          },
+          {
+            "question": "Wie heißt die größte deutsche Insel?",
+            "options": ["Sylt", "Usedom", "Rügen", "Fehmarn", "Borkum"],
+            "answer": ["Rügen"]
+          },
+          {
+            "question": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+            "options": ["Helmut Kohl", "Angela Merkel", "Konrad Adenauer", "Willy Brandt", "Gerhard Schröder"],
+            "answer": ["Konrad Adenauer"]
+          },
+          {
+            "question": "Was ist das größte Bundesland von Deutschland?",
+            "options": ["Bayern", "Nordrhein-Westfalen", "Sachsen", "Brandenburg", "Hessen"],
+            "answer": ["Bayern"]
+          },
+          {
+            "question": "Welche der folgenden Städte liegt in Deutschland?",
+            "options": ["Paris", "Amsterdam", "Wien", "München", "Brüssel"],
+            "answer": ["München"]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Deutschland Hauptstädte Quiz",
+        "questions": [
+          {
+            "question": "Was ist die Hauptstadt von Bayern?",
+            "options": ["München", "Nürnberg", "Augsburg", "Würzburg", "Regensburg"],
+            "answer": ["München"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Nordrhein-Westfalen?",
+            "options": ["Düsseldorf", "Köln", "Essen", "Dortmund", "Bielefeld"],
+            "answer": ["Düsseldorf"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Hessen?",
+            "options": ["Frankfurt", "Wiesbaden", "Marburg", "Kassel", "Gießen"],
+            "answer": ["Wiesbaden"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Sachsen?",
+            "options": ["Leipzig", "Dresden", "Chemnitz", "Zwickau", "Cottbus"],
+            "answer": ["Dresden"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Niedersachsen?",
+            "options": ["Hannover", "Bremen", "Braunschweig", "Göttingen", "Oldenburg"],
+            "answer": ["Hannover"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Baden-Württemberg?",
+            "options": ["Stuttgart", "Mannheim", "Karlsruhe", "Freiburg", "Heidelberg"],
+            "answer": ["Stuttgart"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Brandenburg?",
+            "options": ["Potsdam", "Cottbus", "Frankfurt (Oder)", "Neubranden", "Brandenburg an der Havel"],
+            "answer": ["Potsdam"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Rheinland-Pfalz?",
+            "options": ["Mainz", "Koblenz", "Trier", "Ludwigshafen", "Neustadt an der Weinstraße"],
+            "answer": ["Mainz"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Thüringen?",
+            "options": ["Erfurt", "Jena", "Weimar", "Gera", "Altenburg"],
+            "answer": ["Erfurt"]
+          },
+          {
+            "question": "Was ist die Hauptstadt von Mecklenburg-Vorpommern?",
+            "options": ["Schwerin", "Rostock", "Greifswald", "Stralsund", "Neubranden"],
+            "answer": ["Schwerin"]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Programmieren Quiz",
+        "questions": [
+          {
+            "question": "Was ist eine Schleife in der Programmierung?",
+            "options": ["Ein einzelner Befehl", "Eine bedingte Anweisung", "Ein Block von Code, der mehrfach ausgeführt wird", "Ein Datentyp", "Ein Fehler"],
+            "answer": ["Ein Block von Code, der mehrfach ausgeführt wird"]
+          },
+          {
+            "question": "Was bedeutet 'API' in der Programmierung?",
+            "options": ["Application Protocol Interface", "Application Programming Interface", "Automated Programming Instance", "Algorithmic Processing Integration", "Application Public Interface"],
+            "answer": ["Application Programming Interface"]
+          },
+          {
+            "question": "Welche Programmiersprache wird häufig für Webentwicklung verwendet?",
+            "options": ["Java", "C#", "Python", "JavaScript", "Ruby"],
+            "answer": ["JavaScript"]
+          },
+          {
+            "question": "Was ist der Zweck von Variablen in der Programmierung?",
+            "options": ["Speichern von Daten", "Erstellen von Funktionen", "Steuern der Programmausführung", "Definieren von Klassen", "Erstellen von Dateien"],
+            "answer": ["Speichern von Daten"]
+          },
+          {
+            "question": "Welche der folgenden sind populäre Programmiersprachen?",
+            "options": ["Python", "Java", "C++", "Swift", "HTML"],
+            "answer": ["Python", "Java", "C++", "Swift"]
+          },
+          {
+            "question": "Was ist eine if-Anweisung?",
+            "options": ["Ein Befehl, der die Ausführung eines Programms anzeigt", "Eine bedingte Anweisung", "Ein Schleifenbefehl", "Ein Datentyp", "Eine Methode zum Sortieren"],
+            "answer": ["Eine bedingte Anweisung"]
+          },
+          {
+            "question": "Was ist eine Funktion in der Programmierung?",
+            "options": ["Ein Datentyp", "Ein Block von Code, der eine bestimmte Aufgabe ausführt", "Ein Fehler", "Ein Schleifenbefehl", "Ein Fehlerbehebungsprozess"],
+            "answer": ["Ein Block von Code, der eine bestimmte Aufgabe ausführt"]
+          },
+          {
+            "question": "Welche der folgenden Technologien wird für die Entwicklung von Websites verwendet?",
+            "options": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+            "answer": ["HTML", "CSS", "JavaScript", "PHP"]
+          },
+          {
+            "question": "Was ist der Unterschied zwischen einer Liste und einem Set in Python?",
+            "options": ["Listen sind geordnet, Sets nicht", "Listen sind unveränderlich, Sets nicht", "Sets haben Duplikate, Listen nicht", "Listen enthalten Zahlen, Sets nicht", "Es gibt keinen Unterschied"],
+            "answer": ["Listen sind geordnet, Sets nicht"]
+          },
+          {
+            "question": "Was bedeutet 'debuggen' in der Programmierung?",
+            "options": ["Code ohne Fehler ausführen", "Fehler im Code suchen und beheben", "Code schneller ausführen", "Code in eine andere Sprache umwandeln", "Funktionen im Code erstellen"],
+            "answer": ["Fehler im Code suchen und beheben"]
+          }
+        ]
+      }
+    ]
+  }
+  
