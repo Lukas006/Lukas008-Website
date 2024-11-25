@@ -1,15 +1,14 @@
 let currentQuestionIndex = 0;
 let score = 0;
 let questions = [];
-let quizStarted = false;
 let selectedQuiz = null;
 
-// Frage laden
+// Quiz laden
 const loadQuiz = async (quizId) => {
     try {
         const response = await fetch('quizquestions.json');
         const data = await response.json();
-        
+
         // Finde das gewählte Quiz
         const quiz = data.quizzes.find(q => q.id === quizId);
         if (quiz) {
@@ -29,8 +28,6 @@ const showQuestion = () => {
     const question = questions[currentQuestionIndex];
     const questionElement = document.getElementById('question');
     const optionsContainer = document.getElementById('options-container');
-    const nextButton = document.getElementById('next-button');
-    const confirmButton = document.getElementById('confirm-button');
 
     questionElement.textContent = question.question;
     optionsContainer.innerHTML = '';
@@ -43,7 +40,7 @@ const showQuestion = () => {
         checkbox.type = 'checkbox';
         checkbox.id = `option${index}`;
         checkbox.value = option;
-        
+
         const label = document.createElement('label');
         label.setAttribute('for', `option${index}`);
         label.textContent = option;
@@ -52,9 +49,6 @@ const showQuestion = () => {
         optionElement.appendChild(label);
         optionsContainer.appendChild(optionElement);
     });
-
-    nextButton.style.display = 'none';  // Verstecke "Next"-Button zu Beginn
-    confirmButton.style.display = 'inline-block';  // Zeige den "Confirm"-Button
 };
 
 // Antwort überprüfen
@@ -64,33 +58,33 @@ const checkAnswer = () => {
         .map(checkbox => checkbox.value);
 
     const correctAnswers = question.answer;
-    let isCorrect = selectedOptions.every(option => correctAnswers.includes(option)) && selectedOptions.length === correctAnswers.length;
 
+    // Markiere richtige und falsche Antworten
     const optionElements = document.querySelectorAll('#options-container .option');
-    
     optionElements.forEach(optionElement => {
         const checkbox = optionElement.querySelector('input');
         const label = optionElement.querySelector('label');
-        const isSelected = checkbox.checked;
         
         if (correctAnswers.includes(checkbox.value)) {
             optionElement.classList.add('correct-answer');
-        } else if (isSelected) {
+        } else if (checkbox.checked) {
             optionElement.classList.add('wrong-answer');
         }
     });
 
-    if (isCorrect) {
+    // Punkte erhöhen, wenn die Antwort korrekt ist
+    if (
+        selectedOptions.every(option => correctAnswers.includes(option)) &&
+        selectedOptions.length === correctAnswers.length
+    ) {
         score++;
         document.getElementById('score').textContent = `Punktestand: ${score}`;
     }
-
-    document.getElementById('next-button').style.display = 'block';  // Zeige "Next"-Button nach der Bestätigung
-    document.getElementById('confirm-button').style.display = 'none';  // Verstecke den "Confirm"-Button
 };
 
 // Nächste Frage
 const nextQuestion = () => {
+    checkAnswer();
     currentQuestionIndex++;
 
     if (currentQuestionIndex < questions.length) {
@@ -116,32 +110,17 @@ const resetQuiz = () => {
     document.getElementById('start-screen').style.display = 'block';
 };
 
-// Home Button
-document.getElementById('home-button').addEventListener('click', () => {
-    resetQuiz();
-    quizStarted = false;
-    loadQuiz();
-});
-
-// Next Button
+// Event Listener für Buttons
+document.getElementById('home-button').addEventListener('click', resetQuiz);
 document.getElementById('next-button').addEventListener('click', nextQuestion);
-
-// Confirm Button
-document.getElementById('confirm-button').addEventListener('click', checkAnswer);
-
-// Restart Button
 document.getElementById('restart-button').addEventListener('click', () => {
     resetQuiz();
-    quizStarted = false;
     loadQuiz(selectedQuiz);
 });
-
-// Start Quiz
 document.getElementById('start-button').addEventListener('click', () => {
     selectedQuiz = document.getElementById('quiz-selection').value;
     document.getElementById('start-screen').style.display = 'none';
     document.getElementById('quiz-screen').style.display = 'block';
-    quizStarted = true;
     loadQuiz(selectedQuiz);
 });
 
@@ -163,5 +142,5 @@ const loadQuizSelection = async () => {
     }
 };
 
-// Lade Quiz-Auswahl beim Laden der Seite
+// Lade Quiz-Auswahl beim Start
 loadQuizSelection();
