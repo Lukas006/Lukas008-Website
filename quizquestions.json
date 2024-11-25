@@ -279,6 +279,242 @@
             "answer": ["Fehler im Code suchen und beheben"]
           }
         ]
+      },
+      {
+        "id": "6",
+        "title": "Physik Quiz",
+        "questions": [
+          {
+            "question": "Was ist die Grundeinheit der Masse im Internationalen Einheitensystem (SI)?",
+            "options": ["Gramm", "Kilogramm", "Milligramm", "Tonne", "Pfund"],
+            "answer": ["Kilogramm"]
+          },
+          {
+            "question": "Was ist die Lichtgeschwindigkeit im Vakuum?",
+            "options": ["299.792 km/s", "300.000 km/s", "150.000 km/s", "200.000 km/s", "500.000 km/s"],
+            "answer": ["299.792 km/s"]
+          },
+          {
+            "question": "Welcher Physiker ist für die drei Bewegungsgesetze bekannt?",
+            "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "James Clerk Maxwell", "Niels Bohr"],
+            "answer": ["Isaac Newton"]
+          },
+          {
+            "question": "Welche Art von Welle ist Licht?",
+            "options": ["Mechanische Welle", "Elektromagnetische Welle", "Schallwelle", "Druckwelle", "Transversale Welle"],
+            "answer": ["Elektromagnetische Welle"]
+          },
+          {
+            "question": "Welche Kraft hält die Planeten in ihren Umlaufbahnen?",
+            "options": ["Magnetische Kraft", "Elektrische Kraft", "Zentrifugalkraft", "Gravitation", "Reibung"],
+            "answer": ["Gravitation"]
+          },
+          {
+            "question": "Was beschreibt das Ohmsche Gesetz?",
+            "options": ["Zusammenhang zwischen Spannung, Stromstärke und Widerstand", "Bewegung von Elektronen", "Energieerhaltung", "Magnetfelder", "Lichtbrechung"],
+            "answer": ["Zusammenhang zwischen Spannung, Stromstärke und Widerstand"]
+          },
+          {
+            "question": "Welche dieser Einheiten ist eine SI-Einheit?",
+            "options": ["Volt", "Pound", "Erg", "Newton", "Calorie"],
+            "answer": ["Volt", "Newton"]
+          },
+          {
+            "question": "Was ist ein Photon?",
+            "options": ["Eine Welle", "Ein Teilchen", "Ein Quant von Licht", "Ein Molekül", "Ein Atom"],
+            "answer": ["Ein Quant von Licht"]
+          },
+          {
+            "question": "Was ist der zweite Hauptsatz der Thermodynamik?",
+            "options": [
+              "Energie kann nicht erzeugt oder zerstört werden.",
+              "Die Entropie eines abgeschlossenen Systems nimmt zu.",
+              "Kraft ist gleich Masse mal Beschleunigung.",
+              "Licht hat eine konstante Geschwindigkeit.",
+              "Wärme kann nicht vollständig in Arbeit umgewandelt werden."
+            ],
+            "answer": ["Die Entropie eines abgeschlossenen Systems nimmt zu."]
+          },
+          {
+            "question": "Welcher Planet hat die stärkste Gravitation im Sonnensystem?",
+            "options": ["Jupiter", "Saturn", "Erde", "Mars", "Neptun"],
+            "answer": ["Jupiter"]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Valorant Quiz",
+        "questions": [
+          {
+            "question": "Wie viele Spieler hat ein Team in Valorant?",
+            "options": ["3", "4", "5", "6", "7"],
+            "answer": ["5"]
+          },
+          {
+            "question": "Welche Rolle hat der Charakter 'Sage'?",
+            "options": ["Duelist", "Sentinel", "Initiator", "Controller", "Lurker"],
+            "answer": ["Sentinel"]
+          },
+          {
+            "question": "Wie heißt die virtuelle Währung in Valorant?",
+            "options": ["Valorant Coins", "Riot Points", "VP (Valorant Points)", "Credits", "Tokens"],
+            "answer": ["VP (Valorant Points)"]
+          },
+          {
+            "question": "Wie viele Runden braucht ein Team, um ein Match in Valorant zu gewinnen?",
+            "options": ["10", "11", "12", "13", "14"],
+            "answer": ["13"]
+          },
+          {
+            "question": "Welcher Charakter kann ein Rauchfeld (Smokes) erzeugen?",
+            "options": ["Brimstone", "Jett", "Omen", "Viper", "Alle oben"],
+            "answer": ["Alle oben"]
+          },
+          {
+            "question": "Was passiert, wenn ein Spike explodiert?",
+            "options": ["Das angreifende Team gewinnt die Runde.", "Beide Teams verlieren.", "Die Runde endet unentschieden.", "Das verteidigende Team gewinnt.", "Alle Spieler sterben."],
+            "answer": ["Das angreifende Team gewinnt die Runde."]
+          },
+          {
+            "question": "Wie heißt die Map mit einer Seilbahn?",
+            "options": ["Split", "Bind", "Fracture", "Icebox", "Breeze"],
+            "answer": ["Fracture"]
+          },
+          {
+            "question": "Welche Fähigkeit hat Phoenix?",
+            "options": ["Flammenwand", "Blitzgranate", "Heilung", "Ultimate: Wiederauferstehung", "Alle oben"],
+            "answer": ["Alle oben"]
+          },
+          {
+            "question": "Wie viele Waffen gibt es in Valorant?",
+            "options": ["15", "17", "20", "22", "24"],
+            "answer": ["17"]
+          },
+          {
+            "question": "Welches Unternehmen hat Valorant entwickelt?",
+            "options": ["Riot Games", "Epic Games", "Blizzard", "Ubisoft", "Valve"],
+            "answer": ["Riot Games"]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Zahnarzt Werkzeug Quiz",
+        "questions": [
+          {
+            "question": "Welches Werkzeug wird zum Entfernen von Karies verwendet?",
+            "options": ["Bohrer", "Scaler", "Zange", "Lupenbrille", "Spiegel"],
+            "answer": ["Bohrer"]
+          },
+          {
+            "question": "Welches Werkzeug wird verwendet, um Zähne zu ziehen?",
+            "options": ["Zange", "Scaler", "Bohrer", "Sonde", "Pinzette"],
+            "answer": ["Zange"]
+          },
+          {
+            "question": "Wozu dient der Speichelsauger?",
+            "options": ["Zum Entfernen von Speichel", "Zum Polieren der Zähne", "Zum Röntgen", "Zum Zahnsteinentfernen", "Zum Bohren"],
+            "answer": ["Zum Entfernen von Speichel"]
+          },
+          {
+            "question": "Welche Substanz wird zum Versiegeln von Zähnen verwendet?",
+            "options": ["Kunststoff", "Keramik", "Amalgam", "Zement", "Fluorid"],
+            "answer": ["Kunststoff"]
+          },
+          {
+            "question": "Welches Werkzeug wird zur Inspektion von Zähnen verwendet?",
+            "options": ["Spiegel", "Sonde", "Scaler", "Bohrer", "Pinzette"],
+            "answer": ["Spiegel"]
+          },
+          {
+            "question": "Was wird zur Reinigung der Zahnzwischenräume verwendet?",
+            "options": ["Interdentalbürste", "Scaler", "Zahnseide", "Speichelsauger", "Polierer"],
+            "answer": ["Interdentalbürste", "Zahnseide"]
+          },
+          {
+            "question": "Wie nennt man das Gerät für Röntgenaufnahmen?",
+            "options": ["Röntgengerät", "Ultraschallgerät", "Bohrer", "Speichelsauger", "Poliermaschine"],
+            "answer": ["Röntgengerät"]
+          },
+          {
+            "question": "Welche Substanz wird zur Zahnaufhellung verwendet?",
+            "options": ["Bleaching-Gel", "Fluorid", "Amalgam", "Zement", "Kunststoff"],
+            "answer": ["Bleaching-Gel"]
+          },
+          {
+            "question": "Welches Werkzeug hilft bei der Entfernung von Zahnstein?",
+            "options": ["Scaler", "Sonde", "Bohrer", "Zange", "Speichelsauger"],
+            "answer": ["Scaler"]
+          },
+          {
+            "question": "Was ist die Hauptfunktion einer Zahnarzt-Sonde?",
+            "options": ["Untersuchen von Zahnoberflächen", "Polieren von Zähnen", "Reinigen von Zahnfleisch", "Extrahieren von Zähnen", "Röntgenaufnahmen"],
+            "answer": ["Untersuchen von Zahnoberflächen"]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "title": "PC-Hardware Quiz",
+        "questions": [
+          {
+            "question": "Was ist die Hauptfunktion einer CPU?",
+            "options": ["Datenverarbeitung", "Stromversorgung", "Datenspeicherung", "Grafikberechnung", "Kühlung"],
+            "answer": ["Datenverarbeitung"]
+          },
+          {
+            "question": "Was ist der Unterschied zwischen HDD und SSD?",
+            "options": [
+              "HDD ist mechanisch, SSD ist elektronisch",
+              "HDD ist schneller als SSD",
+              "SSD hat größere Kapazität als HDD",
+              "HDD wird für RAM verwendet",
+              "Es gibt keinen Unterschied"
+            ],
+            "answer": ["HDD ist mechanisch, SSD ist elektronisch"]
+          },
+          {
+            "question": "Wofür steht 'RAM'?",
+            "options": ["Random Access Memory", "Read-Only Memory", "Remote Access Machine", "Real Application Module", "Rapid Application Memory"],
+            "answer": ["Random Access Memory"]
+          },
+          {
+            "question": "Welche Komponente ist für die Grafikdarstellung verantwortlich?",
+            "options": ["GPU", "CPU", "RAM", "Motherboard", "PSU"],
+            "answer": ["GPU"]
+          },
+          {
+            "question": "Wofür wird ein Netzteil (PSU) benötigt?",
+            "options": ["Zur Stromversorgung", "Zur Datenverarbeitung", "Zur Grafikdarstellung", "Zum Kühlen", "Zum Speichern von Daten"],
+            "answer": ["Zur Stromversorgung"]
+          },
+          {
+            "question": "Welche Kühlmethoden gibt es für Prozessoren?",
+            "options": ["Luftkühlung", "Wasserkühlung", "Passivkühlung", "Flüssigmetallkühlung", "Alle oben"],
+            "answer": ["Alle oben"]
+          },
+          {
+            "question": "Was ist ein Motherboard?",
+            "options": ["Die Hauptplatine eines Computers", "Ein Grafikprozessor", "Ein Speichergerät", "Ein Stromversorger", "Ein Betriebssystem"],
+            "answer": ["Die Hauptplatine eines Computers"]
+          },
+          {
+            "question": "Welche Schnittstelle wird häufig für Grafikkarten verwendet?",
+            "options": ["PCIe", "SATA", "USB", "HDMI", "Thunderbolt"],
+            "answer": ["PCIe"]
+          },
+          {
+            "question": "Was ist eine externe Speicheroption für PCs?",
+            "options": ["Externe Festplatte", "USB-Stick", "Cloud-Speicher", "Speicherkarte", "Alle oben"],
+            "answer": ["Alle oben"]
+          },
+          {
+            "question": "Welche Komponente steuert die Temperaturüberwachung?",
+            "options": ["BIOS", "Motherboard", "CPU", "GPU", "PSU"],
+            "answer": ["BIOS"]
+          }
+        ]
       }
     ]
   }
